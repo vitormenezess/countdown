@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Send+Flowers&display=swap"
+      rel="stylesheet"
+    />
+    <title>Count Down</title>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="dat">
+          <input class="escondido" type="datetime-local" name="data" id="data" onchange="contagemRegressiva()">
+            <i class="fas fa-regular fa-calendar" id="icone"> </i>
+
+       
+        </div>
+      <div class="title">
+        
+        <h1>Save the Date</h1>
+
+        <h2 class="nome">Liliane & Vitor </h2>
+        <h2>Casamento</h2>
+        <h2>11.11.2023</h2>
+      </div>
+      <div class="countdown">
+        <div>
+          <h1 id="dias">00</h1>
+          <p>Dias</p>
+        </div>
+        <div>
+          <h1 id="horas">00</h1>
+          <p>Horas</p>
+        </div>
+        <div>
+          <h1 id="minutos">00</h1>
+          <p>Minutos</p>
+        </div>
+        <div>
+          <h1 id="segundos">00</h1>
+          <p>Segundos</p>
+        </div>
+      </div>
+      <div class="button">
+        <p>Saiba mais</p>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/71d95cd2fb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
